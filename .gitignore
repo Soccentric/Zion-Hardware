@@ -1,0 +1,65 @@
+# Build artifacts
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.dmp
+
+# Libraries
+*.a
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build directories
+build/
+dist/
+cmake-build-*/
+
+# FPGA specific
+*.bit
+*.mcs
+*.prm
+*.xpr
+*.runs/
+*.hw/
+*.ip_user_files/
+
+# Simulation
+*.vcd
+*.wdb
+*.do
+*.tcl
+
+# Documentation
+*.pdf
+*.docx
