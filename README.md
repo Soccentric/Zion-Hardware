@@ -1,5 +1,30 @@
 # Zion-Hardware
 
+## 🌟 Welcome to Zion-Hardware - Open Source FPGA Platform
+
+**Unleashing Programmable Logic for Custom Computing**
+
+This repository features the complete design schematics, Bill of Materials (BOM), and extensive documentation for our Zion-Hardware platform - an AMD Xilinx Zynq UltraScale+ MPSoC and Zynq 7000 based solution that combines the flexibility of FPGA fabric with powerful processing systems. By open-sourcing these designs, we're empowering engineers to create custom hardware accelerators and innovative embedded systems that were previously out of reach.
+
+### 🎯 Our Mission
+Soccentric believes in the transformative power of programmable hardware. Our open source initiative seeks to:
+- **Democratize FPGA Design**: Make high-performance programmable logic accessible to all
+- **Enable Customization**: Provide templates for domain-specific hardware acceleration
+- **Foster Innovation**: Create a community where custom computing solutions thrive
+- **Accelerate Research**: Support academic and industrial research in programmable systems
+
+### 📋 What's Included
+- **Complete Zynq Designs**: Full schematics for UltraScale+ and Zynq 7000 platforms
+- **FPGA IP Cores**: Custom intellectual property blocks and accelerators
+- **High-Speed Interface Designs**: PCIe, Ethernet, and custom protocol implementations
+- **Development Boards**: Reference designs for rapid prototyping
+- **Vivado Projects**: Complete FPGA design projects with constraints
+- **Software Drivers**: Linux drivers and bare-metal examples
+- **Performance Benchmarks**: Characterization data and optimization guides
+
+**Author:** Sandesh Ghimire  
+**©** Sandesh@soccentric.com
+
 ## Overview
 AMD Xilinx Zynq UltraScale+ MPSoC and Zynq 7000 based hardware platform providing heterogeneous computing with programmable logic and processing systems. These System-on-Chips integrate high-performance CPUs, GPUs, and FPGA fabric, enabling hardware acceleration and real-time processing for demanding embedded applications.
 
@@ -74,5 +99,71 @@ All platforms have:
 - **Development Tools**: Complete toolchain from design to deployment
 - **Partner Network**: Global ecosystem of design partners and solutions
 
+## 🚀 Getting Started
 
+### Prerequisites
+- AMD Xilinx Zynq device (UltraScale+ or Zynq 7000)
+- Vivado Design Suite
+- Vitis Unified Software Platform
+- PCB manufacturing capabilities
+
+### Quick Start
+1. **Install Tools**: Set up Vivado and Vitis development environments
+2. **Review Designs**: Examine schematics in `hardware/`
+3. **Open Projects**: Load Vivado projects from `fpga/`
+4. **Synthesize & Implement**: Build the FPGA design
+5. **Test Hardware**: Use provided test benches and software examples
+
+### Development Environment
+- **Vivado**: FPGA design and implementation
+- **Vitis**: Software development and AI acceleration
+- **PetaLinux**: Embedded Linux distribution
+- **Xilinx Runtime (XRT)**: Acceleration runtime environment
+
+## 🤝 Contributing
+
+Join the programmable hardware revolution!
+
+### Ways to Contribute
+- **IP Cores**: Share custom intellectual property blocks
+- **Accelerator Designs**: Contribute hardware accelerators for specific algorithms
+- **Performance Optimizations**: Share timing and resource optimizations
+- **Documentation**: Create tutorials and design guides
+- **Tool Integration**: Improve build scripts and automation
+
+### Development Workflow
+1. Fork this repository
+2. Create your feature branch (`git checkout -b feature/custom-accelerator`)
+3. Develop and test your IP/core
+4. Include comprehensive documentation
+5. Submit a Pull Request with validation results
+
+### Guidelines
+- Follow Xilinx design best practices
+- Include timing constraints and resource utilization data
+- Test on actual hardware when possible
+- Document all interfaces and dependencies
+
+## 📄 License
+
+CERN Open Hardware Licence Version 2 - Permissive. See [LICENSE](LICENSE) for complete terms.
+
+This license permits commercial use, modification, and distribution with proper attribution.
+
+## 📞 Support & Community
+
+- **Issues**: [GitHub Issues](https://github.com/soccentric/Zion-Hardware/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/soccentric/Zion-Hardware/discussions)
+- **Xilinx Forums**: Connect with the global FPGA community
+- **Email**: hardware@soccentric.com for collaboration
+
+## 🙏 Acknowledgments
+
+- AMD Xilinx for the revolutionary Zynq platform
+- Our contributors pushing the boundaries of programmable hardware
+- The academic and research communities advancing FPGA technology
+
+---
+
+**Where Software Meets Hardware - Soccentric**
 
