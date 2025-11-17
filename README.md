@@ -6,6 +6,8 @@
 
 This repository features the complete design schematics, Bill of Materials (BOM), and extensive documentation for our Zion-Hardware platform - an AMD Xilinx Zynq UltraScale+ MPSoC and Zynq 7000 based solution that combines the flexibility of FPGA fabric with powerful processing systems. By open-sourcing these designs, we're empowering engineers to create custom hardware accelerators and innovative embedded systems that were previously out of reach.
 
+![Zion-Hardware Platform](Zion-Hardware.png)
+
 ### 🎯 Our Mission
 Soccentric believes in the transformative power of programmable hardware. Our open source initiative seeks to:
 - **Democratize FPGA Design**: Make high-performance programmable logic accessible to all
